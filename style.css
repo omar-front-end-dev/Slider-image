@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-box{
+    width: 35%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    flex-basis: 20%;
+    cursor: pointer;
+    border: 1px solid #b4b4b4;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 5px;
+}
+button{
+    cursor: pointer;
+    padding: 7px;
+    background-color: rgb(250, 124, 46);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+}
